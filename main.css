@@ -6,6 +6,7 @@
 body{
 	font-family: 'Fredoka One', cursive;
 	background-image: url('maple.jpg');
+	background-color: #006a4e;
 	background-size: cover;
 	background-position: top center;
 }
@@ -84,7 +85,7 @@ main{
 }
 .current .more-info{
 	color: white;
-	font-size: 5vh;
+	font-size: 3vh;
 	margin-bottom: 5vh;
 	text-shadow: 2px 5px rgba(0,0,0,0.9);
 }
