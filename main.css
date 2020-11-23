@@ -8,7 +8,6 @@ body{
 	background-image: url('maple.jpg');
 	background-color: #006a4e;
 	background-size: cover;
-	background-repeat: no-repeat;
 	background-position: center;
 }
 .app-wrap{
@@ -18,18 +17,20 @@ body{
 header{
 	display: flex;
 	justify-content: center;
-	padding: 1vh 3vw;
+	padding: 2vh 3vw;
 	align-items: center;
-	margin: 2vh auto;
+	margin-top: 15vh;
+	margin-bottom:5vh;
 }
 header input{
-	width: 75vw;
-	height: 7vh;
+	width: 70vw;
+	height: 10vh;
 	padding: 3vh 3vw;
 	background-color: rgba(255,255,255,0.1);
 	border-radius: 2vh 0vh 2vh 0vh;
 	font-family: inherit; 
-	font-size: 3vh;
+	font-size: 5vh;
+	text-align: center;
 	outline: none;
 	border:none;
 	border-bottom: 1vh solid yellow;
@@ -37,7 +38,7 @@ header input{
 }
 header input:hover {
 	background-color: rgba(255,255,255,0.7);
-	width: 85vw;
+	width: 75vw;
 }
 main{
 	display: flex;
@@ -49,13 +50,13 @@ main{
 }
 .location .city{
 	color: white;
-	font-size: 7vh;
-	margin-bottom: 3vh;
+	font-size: 9vh;
+	margin-bottom: 5vh;
 	transition: 0.5s ease-out;
 	text-shadow: 2px 5px rgba(0,0,0,0.9);
 }
 .location .city:hover{
-	font-size: 8vh;
+	font-size: 10vh;
 }
 .current{
 	display: flex;
@@ -66,32 +67,32 @@ main{
 	padding: 2vh 20vw;
 }
 .current .temp{
-	margin-bottom: 3vh;
+	margin-bottom: 5vh;
 }
 .current .temp .nor-temp{
 	color: yellow;
-	font-size: 10vh;
+	font-size: 12vh;
 	text-shadow: 2px 5px rgba(0,0,0,0.9);
 	transition: 0.5s ease-out;
 }
 .current .temp .nor-temp:hover{
-	font-size: 11vh;
+	font-size: 13vh;
 }
 .current .weather{
 	color: rgba(0,0,0,0.9);
-	font-size: 7vh;
+	font-size: 9vh;
 	text-shadow: 1px 3px rgba(0,0,0,0.3);
 	font-style: italic;
-	margin-bottom: 4vh;
+	margin-bottom: 5vh;
 	transition: 0.5s ease-out;
 }
 .current .weather:hover{
-	font-size:8vh;
+	font-size:10vh;
 }
 .current .more-info{
 	color: white;
 	font-size: 2vh;
-	margin-bottom: 3vh;
+	margin-bottom: 5vh;
 	text-shadow: 2px 5px rgba(0,0,0,0.9);
 }
 footer{
@@ -103,4 +104,5 @@ footer{
 	color: rgba(0,0,0,0.3);
 	font-size: 2vh;
 	text-shadow: 2px 3px rgba(0,0,0,0.2);
+	margin: 7vh auto;
 }
