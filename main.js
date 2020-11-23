@@ -28,27 +28,21 @@ function displayResults(weather){
 
 	let currweather = document.querySelector('.current .weather');
 	currweather.innerHTML=weather.weather[0].description;
-	
-	let sunrise = document.querySelector('.current .sun .rise');
-	sunrise.innerHTML=`${timeBuilder(weather.sys.sunrise)}<span>A.M.</span>`;
 
-	let sunset = document.querySelector('.current .set');
-	sunset.innerHTML=`${timeBuilder(weather.sys.sunset)}<span>P.M.</span>`;
+	let humidity = document.querySelector('.current .more-info .humidity');
+	humidity.innerHTML=`${weather.main.humidity}`;
 
+	let pressure = document.querySelector('.current .more-info .pressure');
+	pressure.innerHTML=`${weather.main.pressure}`;
 
 	let now = new Date();
 	let date = document.querySelector('.location .date');
 	date.innerHTML=dateBuilder(now)
 
 }
-function timeBuiler(t){
-	dateObj = new Date(t*1000);
-	utcString=dateObj.toLocaleString();
-	time = utcString.slice(-11,-4);
-	return `${utcString}`;	
-}
 
 function dateBuilder(d){
+
 	let months=["January","February","March","April","May","June","July","August","September","October","November","December"];
 	let days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 	let day=days[d.getDay()];
