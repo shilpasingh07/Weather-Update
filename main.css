@@ -85,7 +85,7 @@ main{
 }
 .current .more-info{
 	color: white;
-	font-size: 4vh;
+	font-size: 3vh;
 	margin-bottom: 5vh;
 	text-shadow: 2px 5px rgba(0,0,0,0.9);
 }
@@ -97,5 +97,5 @@ footer{
 	align-items: center;
 	color: rgba(0,0,0,0.3);
 	font-size: 2vh;
-	text-shadow: 2px 5px rgba(0,0,0,0.2);
+	text-shadow: 2px 3px rgba(0,0,0,0.2);
 }
