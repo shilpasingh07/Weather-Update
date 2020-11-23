@@ -20,11 +20,11 @@ header{
 	justify-content: center;
 	padding: 1vh 3vw;
 	align-items: center;
-	margin: 3vh auto;
+	margin: 2vh auto;
 }
 header input{
 	width: 75vw;
-	height: 10vh;
+	height: 7vh;
 	padding: 3vh 3vw;
 	background-color: rgba(255,255,255,0.1);
 	border-radius: 15px 0px 15px 0px;
@@ -90,7 +90,7 @@ main{
 .current .more-info{
 	color: white;
 	font-size: 2vh;
-	margin-bottom: 4vh;
+	margin-bottom: 3vh;
 	text-shadow: 2px 5px rgba(0,0,0,0.9);
 }
 footer{
