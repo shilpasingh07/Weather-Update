@@ -8,7 +8,7 @@ body{
 	background-image: url('maple.jpg');
 	background-color: #006a4e;
 	background-size: cover;
-	background-position: center;
+	background-position: top center;
 }
 .app-wrap{
 	display: flex;
