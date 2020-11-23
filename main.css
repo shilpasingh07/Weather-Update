@@ -19,7 +19,7 @@ header{
 	justify-content: center;
 	padding: 2vh 3vw;
 	align-items: center;
-	margin-top: 15vh;
+	margin-top: 7vh;
 	margin-bottom:5vh;
 }
 header input{
@@ -46,7 +46,7 @@ main{
 	justify-content: center;
 	text-align: center;
 	align-items: center;
-	padding: 1vh 3vw;
+	padding: 1vh;
 }
 .location .city{
 	color: white;
@@ -64,7 +64,7 @@ main{
 	justify-content: center;
 	text-align: center;
 	align-items: center;
-	padding: 2vh 20vw;
+	padding: 2vh;
 }
 .current .temp{
 	margin-bottom: 5vh;
@@ -83,7 +83,7 @@ main{
 	font-size: 9vh;
 	text-shadow: 1px 3px rgba(0,0,0,0.3);
 	font-style: italic;
-	margin-bottom: 5vh;
+	margin-bottom: 7vh;
 	transition: 0.5s ease-out;
 }
 .current .weather:hover{
@@ -92,7 +92,7 @@ main{
 .current .more-info{
 	color: white;
 	font-size: 2vh;
-	margin-bottom: 5vh;
+	margin-bottom: 3vh;
 	text-shadow: 2px 5px rgba(0,0,0,0.9);
 }
 footer{
@@ -104,5 +104,5 @@ footer{
 	color: rgba(0,0,0,0.3);
 	font-size: 2vh;
 	text-shadow: 2px 3px rgba(0,0,0,0.2);
-	margin: 7vh auto;
+	margin: 3vh auto;
 }
