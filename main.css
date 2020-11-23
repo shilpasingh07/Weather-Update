@@ -89,7 +89,7 @@ main{
 }
 .current .more-info{
 	color: white;
-	font-size: 3vh;
+	font-size: 2vh;
 	margin-bottom: 5vh;
 	text-shadow: 2px 5px rgba(0,0,0,0.9);
 }
