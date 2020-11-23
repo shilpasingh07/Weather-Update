@@ -6,6 +6,7 @@
 body{
 	font-family: 'Fredoka One', cursive;
 	background-image: url('maple.jpg');
+	background-color: #009B7D;
 	background-size: cover;
 	background-position: top center;
 }
